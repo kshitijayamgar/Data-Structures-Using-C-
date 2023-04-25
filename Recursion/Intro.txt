@@ -1,0 +1,34 @@
+Recursion is one of the most important algorithms which uses the concept of code reusability and repeated usage of the same piece of code. 
+
+Recursion, in general, can be defined as the repetition of a process in a similar way until the specific condition reaches.
+
+In C Programming, if a function calls itself from inside, the same function is called recursion.
+
+The function which calls itself is called a recursive function, and the function call is termed a recursive call.
+
+The recursion is similar to iteration but more complex to understand. If the problem can be solved by recursion, that means it can be solved by iteration. Problems like sorting, traversal, and searching can be solved using recursion.
+
+While using recursion, make sure that it has a base (exit) condition; otherwise, the program will go into the infinite loop.
+The recursion contains two cases in its program body.
+
+    Base case: When you write a recursive method or function, it keeps calling itself, so the base case is a specific condition in the function. When it is met, it terminates the recursion. It is used to make sure that the program will terminate. Otherwise, it goes into an infinite loop.
+
+    Recursive case: The part of code inside the recursive function executed repeatedly while calling the recursive function is known as the recursive case.
+
+Basic Syntax of Recursion:-
+
+void recursive_fun() //recursive function
+{
+    Base_case; // Stopping Condition
+    
+    recursive_fun(); //recursive call
+}
+
+int main()
+{
+   
+   recursive_fun(); //function call
+    
+}
+
+The function call inside the main function is normal call, it calls the recursive_fun() function inside which there is another function call recursive_fun(); which is termed as recursive call and the whole recursive_fun() function is recursive function. Base_case is the stopping condition for the recursive function.
