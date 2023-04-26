@@ -1,4 +1,4 @@
-/*ha ek simple prg ahe jyne 1-10 number print hot ahet hach prg aplyala Recursion mde convert krych ahe*/
+/* simple prg for print  1-10 number */
 #include<stdio.h>
 void fun(int x){
 for(int i=1;i<=x;i++){
@@ -10,3 +10,4 @@ for(int i=1;i<=x;i++){
 void main(){
 	fun(5);
 }
+//using this program we can write the recursion program for this program using this code as refernce
